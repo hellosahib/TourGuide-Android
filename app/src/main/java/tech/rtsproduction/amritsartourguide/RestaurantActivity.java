@@ -67,6 +67,9 @@ public class RestaurantActivity extends AppCompatActivity {
         TextView t2 = view1.findViewById(R.id.locationTextDetail);
         t2.setText(object.getLocationAddress());
         ImageView i1 = findViewById(R.id.imageDetail);
+        if(object.getLocationPhoto() != -1){
+            i1.setImageResource(object.getLocationPhoto());
+        }
 
         alertAdd.setView(view1);
         alertAdd.setNeutralButton("Done", new DialogInterface.OnClickListener() {
