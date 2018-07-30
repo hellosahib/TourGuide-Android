@@ -25,7 +25,8 @@
         <activity
             android:name=".RestaurantActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".TransportationActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

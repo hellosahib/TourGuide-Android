@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AmritsarTourGuide</string>
+    <string name="amritsarIntro">Home of the glorious Golden Temple, the iconic city of Amritsar, portrays the heroic character of the Punjab. A day in this peaceful city starts with the spiritual prayers from Gurudwaras. The original name of first the ancient lake, then of the temple complex, and later the surrounding city, meaning pool of ambrosial nectar Amritsar is the spiritual and cultural centre of the Sikh Religion. Baisakhi festival brings out Amritsar\'s resplendent face with its finest food, clothes and merry-making. This place is also famous for its Jallianwala Bagh massacre and its proximity to Wagah Border. The satiating food and generous dollops of legendary Punjabi hospitality further connive to cast a spell upon the visitor. From the Operation Blue Star in the Golden Temple to the tragedy of the Jallianwala Bagh massacre, Amritsar has seen the worst of situations and yet emerged like a phoenix through testing times. Amritsar today is a thriving city with active trade and tourism industries. One of the most agriculturally productive cities of India</string>
+    <string name="welcome_to_amritsar_tourguide">Welcome To Amritsar TourGuide</string>
+    <string name="amritsar_images">Amritsar Images</string>
+    <string name="roadwaysSubtitle">One can easily self-drive or hire a car to reach Amritsar from neighbouring states and cities such as Delhi, Chandigarh and Jammu. Driving to Amritsar is one of the most popular and convenient ways of travelling and there are several options en route to stop for refreshments</string>
+    <string name="roadways">Roadways</string>
+    <string name="railwaysSubtitle">Amritsar Railway Station is the main station in the city and is well connected to almost all major cities in India including Delhi, Mumbai, Chennai, Hyderabad, Ahmedabad, Kolkata, Agra, and Chandigarh, among others. A train journey from Delhi to Amritsar takes a little over 6 hours.</string>
+    <string name="railways">Railways</string>
+    <string name="airwaysSubtitle">Sri Guru Ram Das Jee International Airport in Amritsar, located about 11 kilometeres away from the city-centre, is well connected to other cities in India and also to a number of international cities. There are daily flights to and from Delhi, Chandigarh, Jammu, Srinagar, Dubai, London, Toronto and Tashkent, among other cities.</string>
+    <string name="airways">Airways</string>
+    <string name="transportIntro">Amritsar is Well Connected to Other States as Well as Internationally too .Take A Look Below to learn More</string>
+    <string name="imageview_with_photo_of_location">ImageView With Photo of Location</string>
 </resources>

@@ -17,7 +17,7 @@
             android:layout_height="150dp"
             android:scaleType="centerCrop"
             android:src="@mipmap/ic_launcher"
-            android:contentDescription="ImageView With Photo of Location"/>
+            android:contentDescription="@string/imageview_with_photo_of_location"/>
 
         <TextView
             android:id="@+id/locationTextDetail"

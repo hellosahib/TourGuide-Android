@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarTransportation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/introTransportation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbarTransportation"
+            android:padding="16dp"
+            android:text="@string/transportIntro"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/airwayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/introTransportation"
+            android:padding="8dp"
+            android:text="@string/airways"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/airwaySubtitile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/airwayTitle"
+            android:padding="8dp"
+            android:text="@string/airwaysSubtitle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/railwayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/airwaySubtitile"
+            android:padding="8dp"
+            android:text="@string/railways"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/railwaySubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/railwayTitle"
+            android:padding="8dp"
+            android:text="@string/railwaysSubtitle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/busTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/railwaySubtitle"
+            android:padding="8dp"
+            android:text="@string/roadways"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/vusSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/busTitle"
+            android:padding="8dp"
+            android:text="@string/roadwaysSubtitle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>
+

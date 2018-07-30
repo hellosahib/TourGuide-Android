@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class LocationAdapter extends ArrayAdapter<LocationClass>{
+public class LocationAdapter extends ArrayAdapter<LocationClass> {
 
     public LocationAdapter(@NonNull Context context, @NonNull List<LocationClass> objects) {
         super(context, 0, objects);
@@ -26,8 +26,8 @@ public class LocationAdapter extends ArrayAdapter<LocationClass>{
 
         LocationClass object = getItem(position);
 
-        if(convertView == null){
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
         TextView title = convertView.findViewById(R.id.titleTextItem);
         TextView subTitle = convertView.findViewById(R.id.subTitleItem);
@@ -35,7 +35,7 @@ public class LocationAdapter extends ArrayAdapter<LocationClass>{
 
         title.setText(object.getLocationTitle());
         subTitle.setText(object.getLocationAddress());
-        if(object.getLocationPhoto() != -1){
+        if (object.getLocationPhoto() != -1) {
             imageTile.setImageResource(object.getLocationPhoto());
         }
 

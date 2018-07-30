@@ -2,7 +2,7 @@ package tech.rtsproduction.amritsartourguide;
 
 public class LocationClass {
 
-    private String locationTitle,locationAddress,locationSubtitle;
+    private String locationTitle, locationAddress, locationSubtitle;
     private int locationPhoto;
 
     public LocationClass(String locationTitle, String locationAddress, int locationPhoto, String locationSubtitle) {
