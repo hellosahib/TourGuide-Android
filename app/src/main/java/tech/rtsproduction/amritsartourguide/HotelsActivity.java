@@ -33,7 +33,7 @@ public class HotelsActivity extends AppCompatActivity {
         listView = findViewById(R.id.listViewHotel);
         final ArrayList<LocationClass> hotelList = new ArrayList<>();
 
-        toolbar.setTitle("Hotel Info");
+        toolbar.setTitle(R.string.hotelInfo);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
@@ -73,7 +73,7 @@ public class HotelsActivity extends AppCompatActivity {
         }
 
         alertAdd.setView(view1);
-        alertAdd.setNeutralButton("Done", new DialogInterface.OnClickListener() {
+        alertAdd.setNeutralButton(R.string.done, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
 

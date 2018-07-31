@@ -9,7 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -28,7 +27,7 @@ public class TouristActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbarTourist);
         listView = findViewById(R.id.listViewTourist);
-        toolbar.setTitle("Tourist Attractions");
+        toolbar.setTitle(R.string.touristAtt);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
@@ -76,7 +75,7 @@ public class TouristActivity extends AppCompatActivity {
         }
 
         alertAdd.setView(view1);
-        alertAdd.setNeutralButton("Done", new DialogInterface.OnClickListener() {
+        alertAdd.setNeutralButton(R.string.done, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
 

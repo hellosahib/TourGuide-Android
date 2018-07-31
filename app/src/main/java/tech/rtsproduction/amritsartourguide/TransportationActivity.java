@@ -15,7 +15,7 @@ public class TransportationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_transportation);
 
         toolbar = findViewById(R.id.toolbarTransportation);
-        toolbar.setTitle("Transportation Info");
+        toolbar.setTitle(R.string.transporationInfo);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {

@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -28,7 +27,7 @@ public class RestaurantActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbarRestaraunts);
         listView = findViewById(R.id.listViewRestaraunts);
 
-        toolbar.setTitle("Restaurants Info");
+        toolbar.setTitle(R.string.restInfo);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
@@ -72,7 +71,7 @@ public class RestaurantActivity extends AppCompatActivity {
         }
 
         alertAdd.setView(view1);
-        alertAdd.setNeutralButton("Done", new DialogInterface.OnClickListener() {
+        alertAdd.setNeutralButton(R.string.done, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
 

@@ -11,4 +11,10 @@
     <string name="airways">Airways</string>
     <string name="transportIntro">Amritsar is Well Connected to Other States as Well as Internationally too .Take A Look Below to learn More</string>
     <string name="imageview_with_photo_of_location">ImageView With Photo of Location</string>
+    <string name="amritsarTourGuide">Amritsar Tour Guide</string>
+    <string name="hotelInfo">Hotel Info</string>
+    <string name="done">Done</string>
+    <string name="restInfo">Restaurants Info</string>
+    <string name="touristAtt">Tourist Attractions</string>
+    <string name="transporationInfo">Transportation Info</string>
 </resources>
