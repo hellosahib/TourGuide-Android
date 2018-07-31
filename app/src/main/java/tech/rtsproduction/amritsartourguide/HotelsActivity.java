@@ -1,7 +1,6 @@
 package tech.rtsproduction.amritsartourguide;
 
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -10,11 +9,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -40,12 +37,12 @@ public class HotelsActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        hotelList.add(new LocationClass("Hotel 42", "Mall Road, INA Colony,Amritsar", -1, "Price - Rs1500"));
-        hotelList.add(new LocationClass("Welcome Inn", "Near Railway Station,Albert Road,Amritsar", -1, "Price - Rs2000"));
-        hotelList.add(new LocationClass("Hotel C7", "Kot Atma Singh,Ram Bagh,Amritsar", -1, "Price - Rs1500"));
-        hotelList.add(new LocationClass("Hotel Downtown Suite", "Mall Road,Amritsar", -1, "Price - Rs2500"));
-        hotelList.add(new LocationClass("Sallow Royal Suite", "Near Golden Temple Flyover,GT Road,Amritsar", -1, "Price - Rs2000"));
-        hotelList.add(new LocationClass("Hotel Narula Aurrum", "Taylor Road,Amritsar", -1, "Price- Rs - 3000"));
+        hotelList.add(new LocationClass(getString(R.string.hotelname1), getString(R.string.hotelAddress1), -1, getString(R.string.hotelPrice1)));
+        hotelList.add(new LocationClass(getString(R.string.hotelname2), getString(R.string.hotelAddress2), -1, getString(R.string.hotelPrice2)));
+        hotelList.add(new LocationClass(getString(R.string.hotelname3), getString(R.string.hotelAddress3), -1, getString(R.string.hotelPrice3)));
+        hotelList.add(new LocationClass(getString(R.string.hotelname4), getString(R.string.hotelAddress4), -1, getString(R.string.hotelPrice4)));
+        hotelList.add(new LocationClass(getString(R.string.hotelname5), getString(R.string.hotelAddress5), -1, getString(R.string.hotelPrice5)));
+        hotelList.add(new LocationClass(getString(R.string.hotelname6), getString(R.string.hotelAddress6), -1, getString(R.string.hotelPrice6)));
 
         LocationAdapter adapter = new LocationAdapter(this, hotelList);
         listView.setAdapter(adapter);

@@ -17,4 +17,80 @@
     <string name="restInfo">Restaurants Info</string>
     <string name="touristAtt">Tourist Attractions</string>
     <string name="transporationInfo">Transportation Info</string>
+
+    <!-- Hotel Name -->
+    <string name="hotelname1">Hotel 42</string>
+    <string name="hotelname2">Welcome Inn</string>
+    <string name="hotelname3">Hotel C7</string>
+    <string name="hotelname4">Hotel Downtown Suite</string>
+    <string name="hotelname5">Sallow Royal Suite</string>
+    <string name="hotelname6">Hotel Narula Aurrum</string>
+    <!-- Hotel Address -->
+    <string name="hotelAddress1">Mall Road, INA Colony,Amritsar</string>
+    <string name="hotelAddress2">Near Railway Station,Albert Road,Amritsar</string>
+    <string name="hotelAddress3">Kot Atma Singh,Ram Bagh,Amritsar</string>
+    <string name="hotelAddress4">Mall Road,Amritsar</string>
+    <string name="hotelAddress5">Near Golden Temple Flyover,GT Road,Amritsar</string>
+    <string name="hotelAddress6">Taylor Road,Amritsar</string>
+    <!-- Hotel Prices -->
+    <string name="hotelPrice1">Price - Rs1500</string>
+    <string name="hotelPrice2">Price - Rs2000</string>
+    <string name="hotelPrice3">Price - Rs1500</string>
+    <string name="hotelPrice4">Price - Rs2500</string>
+    <string name="hotelPrice5">Price - Rs2000</string>
+    <string name="hotelPrice6">Price - Rs3000</string>
+    <!-- Restraunts Name -->
+    <string name="restrauntName1">Haveli</string>
+    <string name="restrauntName2">Guru Ka Langar</string>
+    <string name="restrauntName3">Charming Chicken</string>
+    <string name="restrauntName4">Ahuja Milk Bhandar</string>
+    <string name="restrauntName5">Kulcha Land</string>
+    <string name="restrauntName6">Kesar da Dhaba</string>
+    <string name="restrauntName7">Giani Tea Stall</string>
+    <!-- Restraunts Address -->
+    <string name="restrauntAddress1">Amritsar-Jalandhar Highway</string>
+    <string name="restrauntAddress2">Golden Temple</string>
+    <string name="restrauntAddress3">3 Janpath Market Shop No | Majitha Road, Amritsar</string>
+    <string name="restrauntAddress4">Near Hindu College,Amritsar</string>
+    <string name="restrauntAddress5">District Shopping Center Ranjeet Avenue Main Road Ranjit Avenue | Opposite M.K. Hotel, Amritsar</string>
+    <string name="restrauntAddress6">Chowk Passian | Near Town Hall, Amritsar</string>
+    <string name="restrauntAddress7">Cooper Road | Company Bagh, Amritsar, Near Bhandari Bridge, Amritsar</string>
+    <!-- Restraunt Details-->
+    <string name="restrauntDetail1">Haveli has opened its latest restaurant in Amritsar. It reflects the taste and fell of the authentic Punjab. Thoughtfully made and cherished with love, Haveli is becoming a must visit destination in Amritsar. One can expect true Punjabi flavours and a fun outing at Haveli</string>
+    <string name="restrauntDetail2">A Free Food Service Provided in Golden Temple</string>
+    <string name="restrauntDetail3">Charming chicken offer a pleasant, comfortable dinning atmosphere and an extensive menu of fine selection. Our aim is to provide you fresh, hygienically prepared and reasonably priced food made under the strict family supervision. We offer the warmest of welcomes with relaxing surroundings for the delightful break in your travels and offers both elegant and casual dinning</string>
+    <string name="restrauntDetail4">It is a large shop but served food and drinks on road. So, you need to have their food and drinks standing on road itself. On other words dont expect VIP treatment or dedicated service They sell confectioneries and sweets as well. But we opted only for Kesar Lassi as it sounded cool. Lassi was nice but the thick malai was unmanageable. Loved the quality of it and quantity too. Its a real quick tummy filler. You feel heavy after having just one glass of Lassi</string>
+    <string name="restrauntDetail5">This eatery is located at Ranjit sing avenue very near to Holiday Inn. Limited menu of kulchas and lassi but enough to have the tummy filled.Kulchas here are super crisp, soft and delicious. However the accompliments with kulchas have a place for improvement.Very reasonably priced. Its a small eatery with seating capacity of around 20 people max.Overall a must visit place to try kulchas when in Amritsar</string>
+    <string name="restrauntDetail6">Vegetarian Restaurant with a special Dal Makhani which is cooked for whopping 24 hours.Must Visit for Vegans</string>
+    <string name="restrauntDetail7">Nice place to have a good breakfast....majorly Indian stuff. Tea was very good and so were the paneer pakodas. The butter toast comes laden with a slice of butter, with bread toasted the old way, which is yumm</string>
+    <!-- Tourist Places Details-->
+    <string name="attractionName1">Golden Temple</string>
+    <string name="attractionName2">Jallianwala Bagh</string>
+    <string name="attractionName3">Gobindgarh Fort</string>
+    <string name="attractionName4">Khalsa College</string>
+    <string name="attractionName5">Durgiana Temple</string>
+    <string name="attractionName6">Mata Lal Devi Temple</string>
+    <string name="attractionName7">Maharaja Ranjit Singh Museum</string>
+    <string name="attractionName8">Mall Of Amritsar</string>
+    <string name="attractionName9">Guru Nanak Dev University</string>
+    <!-- Tourist Places Address -->
+    <string name="attractionAddress1">Golden Temple Rd, Atta Mandi, Katra Ahluwalia, Amritsar</string>
+    <string name="attractionAddress2">Golden Temple Rd, Amritsar</string>
+    <string name="attractionAddress3">Old Cantt Road, Vijay Chowk, Inside Lohgarh Chowk, Amritsar</string>
+    <string name="attractionAddress4">G.T. Road, Amritsar</string>
+    <string name="attractionAddress5">Hathi Gate, Goal Bagh, Amritsar</string>
+    <string name="attractionAddress6">Model Town, Rani Ka Bagh, Amritsar</string>
+    <string name="attractionAddress7">Ram Bagh, Lawrence Road, Amritsar</string>
+    <string name="attractionAddress8">G.T Road Amritsar</string>
+    <string name="attractionAddress9">GT Road near Railway Station Amritsar</string>
+    <!-- Tourist Places Details -->
+    <string name="attractionDetail1">The Golden Temple, also known as Sri Harmandir Sahib or Darbar Sahib, is a Gurdwara located in the city of Amritsar, Punjab, India. It is the holiest Gurdwara and the most important pilgrimage site of Sikhism</string>
+    <string name="attractionDetail2">Jallianwala Bagh (Hindi: जलियांवाला बाग़) is a public garden in Amritsar, and houses a memorial of national importance, established in 1951 by the Government of India, to commemorate the massacre of peaceful celebrators including unarmed women and children by British occupying forces, on the occasion of the Punjabi New Year (Baisakhi)on 13 April 1919 in the Jallianwala Bagh Massacre. Colonial British Raj sources identified 379 fatalities and estimated about 1100 wounded.[1] Civil Surgeon Dr. Smith indicated that there were 1,526 casualties.[2] The true figures of fatalities are unknown, but are very likely to be many times higher than the official figure of 379</string>
+    <string name="attractionDetail3">Gobindgarh Fort is a historic fort located in the center of the city of Amritsar in the Indian state of Punjab. The Fort was earlier occupied by the army but is now open to the public from 10 February 2017.Today the fort is being developed as a unique live museum, as a repository of Punjab’s history</string>
+    <string name="attractionDetail4">Khalsa College was built as an educational institute during the British Raj in India when Sikh scholars thought about providing higher education to Sikhs and Punjabis within Punjab. Amritsar was chosen for its establishment and Singh Sabha Movement and Chief Khalsa Diwan approached the then Sikh Maharajas and Sikh people of Punjab to raise funds and donate land to build this unique institute. People of Amritsar, Lahore and other cities of Punjab including rich Sikh families and Maharajas donated land and raised funds to build Khalsa College, Amritsar. Its architectural design was created by Ram Singh, a famous architect who also designed one of the Places in England. Its building was completed in 1911–12. Its architectural features are mix of British, Mughal and Sikh architect</string>
+    <string name="attractionDetail5">The Durgiana Temple(ਦੁਰਗਿਆਨਾ ਮੰਦਿਰ), also known as Lakshmi Narayan Temple, Durga Tirath and Sitla Mandir, is a premier temple situated in the city of Amritsar, Punjab, India.[1] Though a Hindu temple, its architecture is similar to the Golden Temple.[2] This temple derives its name from the Goddess Durga, the chief Goddess deified and worshipped here. Idols of Goddess Laksmi (goddess of wealth) and Vishnu (the protector of the world) are also deified here and worshipped</string>
+    <string name="attractionDetail6">The Mata Lal Devi Temple, (also known as the Param Pujya Mata Lal Devi Mandir)  is a sacred Hindu temple that dedicated to a 20th century bespectacled female saint named Lal Devi. The temple is considered to be full of miraculous fertility-improving powers and so is very popular in this country that values children and family so highly. The temple is especially popular and important for women who wish to start a family as it is believed that women who come to pray here have children shortly after and because of this the temple attracts devotees from all over India</string>
+    <string name="attractionDetail7">Maharaja Ranjit Singh Museum was originally the summer palace of first king of Sikh Empire, Maharaja Ranjit Singh. Later, it was converted in to museum in 1977 CE. It is a treasure house of the history, art and architecture of the Sikhs of the 18th and the 19th century AD .The museum offers insights into the life of the Sikh monarch Maharaja Ranjit Singh. The Museum displays objects connecting to Maharaja Ranjit Singh such as arms and armour, outstanding paintings and centuries old coins and manuscripts. The paintings displayed in the galleries of the museum showcase the court and camp of the king. Among all the paintings, one that depicts the city of Lahore is most famous</string>
+    <string name="attractionDetail8">The Mall Of Amritsar is the city’s definitive social and shopping destination. Mall Of Amritsar packs in a complete package of entertainment and shopping experience for its patrons. Spread across 5,35,241 square feet of retail space, the Mall Of The design is ergonomically defined by high quality standards and urbane architecture. Home to over 250 regional, national and international brands, the Mall Of Amritsar brings a novel shopping experience for all its patrons. A crowd favourite, the Mall of Amritsar is undergoing a surreal metamorphosis that not only includes churning of brands but also changing circulation for the patrons in the mall. The food court is being relocated and we now have several brands that will not only be First in city but also first in Punjab. Get ready to witness state of the art infrastructure, a larger atrium, a world class brand new food court and first in city international brands only at Punjab’s only cultural, social and shopping destination</string>
+    <string name="attractionDetail9">Guru Nanak Dev University (G.N.D.U.) was established at Amritsar, Punjab, India on 24 November 1969 to commemorate Guru Nanak Dev's birth quincentenary celebrations. Guru Nanak Dev University campus is spread over 500 acres (2 km²) near village of Kot Khalsa, nearly 8 km west of the Amritsar, next to Khalsa College, Amritsar. G.N.D.U. is both a residential and an affiliating university</string>
 </resources>
