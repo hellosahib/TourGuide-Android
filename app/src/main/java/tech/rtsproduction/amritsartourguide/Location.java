@@ -1,11 +1,11 @@
 package tech.rtsproduction.amritsartourguide;
 
-public class LocationClass {
+public class Location {
 
     private String locationTitle, locationAddress, locationSubtitle;
     private int locationPhoto;
 
-    public LocationClass(String locationTitle, String locationAddress, int locationPhoto, String locationSubtitle) {
+    public Location(String locationTitle, String locationAddress, int locationPhoto, String locationSubtitle) {
         this.locationTitle = locationTitle;
         this.locationAddress = locationAddress;
         this.locationPhoto = locationPhoto;
@@ -16,31 +16,15 @@ public class LocationClass {
         return locationTitle;
     }
 
-    public void setLocationTitle(String locationTitle) {
-        this.locationTitle = locationTitle;
-    }
-
     public String getLocationAddress() {
         return locationAddress;
-    }
-
-    public void setLocationAddress(String locationAddress) {
-        this.locationAddress = locationAddress;
     }
 
     public int getLocationPhoto() {
         return locationPhoto;
     }
 
-    public void setLocationPhoto(int locationPhoto) {
-        this.locationPhoto = locationPhoto;
-    }
-
     public String getLocationSubtitle() {
         return locationSubtitle;
-    }
-
-    public void setLocationSubtitle(String locationSubtitle) {
-        this.locationSubtitle = locationSubtitle;
     }
 }

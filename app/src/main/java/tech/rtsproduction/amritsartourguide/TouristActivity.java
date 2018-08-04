@@ -34,30 +34,30 @@ public class TouristActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        final ArrayList<LocationClass> touristAttList = new ArrayList<>();
-        touristAttList.add(new LocationClass(getString(R.string.attractionName1), getString(R.string.attractionAddress1), R.drawable.golden_temple, getString(R.string.attractionDetail1)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName2), getString(R.string.attractionAddress2), R.drawable.jalliawala, getString(R.string.attractionDetail2)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName3), getString(R.string.attractionAddress3), R.drawable.gobindgarh, getString(R.string.attractionDetail3)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName4), getString(R.string.attractionAddress4), R.drawable.khalsa, getString(R.string.attractionDetail4)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName5), getString(R.string.attractionAddress5), R.drawable.durgiana, getString(R.string.attractionDetail5)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName6), getString(R.string.attractionAddress6), R.drawable.matatemple, getString(R.string.attractionDetail6)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName7), getString(R.string.attractionAddress7), R.drawable.ranjitmuseum, getString(R.string.attractionDetail7)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName8), getString(R.string.attractionAddress8), R.drawable.alphaone, getString(R.string.attractionDetail8)));
-        touristAttList.add(new LocationClass(getString(R.string.attractionName9), getString(R.string.attractionAddress9), R.drawable.gndu, getString(R.string.attractionDetail9)));
+        final ArrayList<Location> touristAttList = new ArrayList<>();
+        touristAttList.add(new Location(getString(R.string.attractionName1), getString(R.string.attractionAddress1), R.drawable.golden_temple, getString(R.string.attractionDetail1)));
+        touristAttList.add(new Location(getString(R.string.attractionName2), getString(R.string.attractionAddress2), R.drawable.jalliawala, getString(R.string.attractionDetail2)));
+        touristAttList.add(new Location(getString(R.string.attractionName3), getString(R.string.attractionAddress3), R.drawable.gobindgarh, getString(R.string.attractionDetail3)));
+        touristAttList.add(new Location(getString(R.string.attractionName4), getString(R.string.attractionAddress4), R.drawable.khalsa, getString(R.string.attractionDetail4)));
+        touristAttList.add(new Location(getString(R.string.attractionName5), getString(R.string.attractionAddress5), R.drawable.durgiana, getString(R.string.attractionDetail5)));
+        touristAttList.add(new Location(getString(R.string.attractionName6), getString(R.string.attractionAddress6), R.drawable.matatemple, getString(R.string.attractionDetail6)));
+        touristAttList.add(new Location(getString(R.string.attractionName7), getString(R.string.attractionAddress7), R.drawable.ranjitmuseum, getString(R.string.attractionDetail7)));
+        touristAttList.add(new Location(getString(R.string.attractionName8), getString(R.string.attractionAddress8), R.drawable.alphaone, getString(R.string.attractionDetail8)));
+        touristAttList.add(new Location(getString(R.string.attractionName9), getString(R.string.attractionAddress9), R.drawable.gndu, getString(R.string.attractionDetail9)));
 
         LocationAdapter adapter = new LocationAdapter(this, touristAttList);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                LocationClass object = touristAttList.get(i);
+                Location object = touristAttList.get(i);
                 showAlert(object);
 
             }
         });
     }
 
-    private void showAlert(LocationClass object) {
+    private void showAlert(Location object) {
         AlertDialog.Builder alertAdd = new AlertDialog.Builder(TouristActivity.this);
         alertAdd.setTitle(object.getLocationTitle());
         LayoutInflater inflater = LayoutInflater.from(TouristActivity.this);

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="Tourist Attractions"
+        android:title="@string/touristMenu"
         android:id="@+id/touristAttMenu"/>
     <item
-        android:title="Restaurants"
+        android:title="@string/resMenu"
         android:id="@+id/restaurantsMenu"
         />
     <item
-        android:title="Hotels"
+        android:title="@string/hotelMenu"
         android:id="@+id/hotelsMenu"
         />
     <item
-        android:title="Transportation"
+        android:title="@string/transMenu"
         android:id="@+id/transportationMenu"/>
 </menu>

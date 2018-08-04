@@ -28,7 +28,7 @@ public class HotelsActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbarHotel);
         listView = findViewById(R.id.listViewHotel);
-        final ArrayList<LocationClass> hotelList = new ArrayList<>();
+        final ArrayList<Location> hotelList = new ArrayList<>();
 
         toolbar.setTitle(R.string.hotelInfo);
         toolbar.setTitleTextColor(Color.WHITE);
@@ -37,12 +37,12 @@ public class HotelsActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        hotelList.add(new LocationClass(getString(R.string.hotelname1), getString(R.string.hotelAddress1), -1, getString(R.string.hotelPrice1)));
-        hotelList.add(new LocationClass(getString(R.string.hotelname2), getString(R.string.hotelAddress2), -1, getString(R.string.hotelPrice2)));
-        hotelList.add(new LocationClass(getString(R.string.hotelname3), getString(R.string.hotelAddress3), -1, getString(R.string.hotelPrice3)));
-        hotelList.add(new LocationClass(getString(R.string.hotelname4), getString(R.string.hotelAddress4), -1, getString(R.string.hotelPrice4)));
-        hotelList.add(new LocationClass(getString(R.string.hotelname5), getString(R.string.hotelAddress5), -1, getString(R.string.hotelPrice5)));
-        hotelList.add(new LocationClass(getString(R.string.hotelname6), getString(R.string.hotelAddress6), -1, getString(R.string.hotelPrice6)));
+        hotelList.add(new Location(getString(R.string.hotelname1), getString(R.string.hotelAddress1), -1, getString(R.string.hotelPrice1)));
+        hotelList.add(new Location(getString(R.string.hotelname2), getString(R.string.hotelAddress2), -1, getString(R.string.hotelPrice2)));
+        hotelList.add(new Location(getString(R.string.hotelname3), getString(R.string.hotelAddress3), -1, getString(R.string.hotelPrice3)));
+        hotelList.add(new Location(getString(R.string.hotelname4), getString(R.string.hotelAddress4), -1, getString(R.string.hotelPrice4)));
+        hotelList.add(new Location(getString(R.string.hotelname5), getString(R.string.hotelAddress5), -1, getString(R.string.hotelPrice5)));
+        hotelList.add(new Location(getString(R.string.hotelname6), getString(R.string.hotelAddress6), -1, getString(R.string.hotelPrice6)));
 
         LocationAdapter adapter = new LocationAdapter(this, hotelList);
         listView.setAdapter(adapter);
@@ -54,7 +54,7 @@ public class HotelsActivity extends AppCompatActivity {
         });
     }
 
-    private void showAlert(LocationClass object) {
+    private void showAlert(Location object) {
         AlertDialog.Builder alertAdd = new AlertDialog.Builder(HotelsActivity.this);
         alertAdd.setTitle(object.getLocationTitle());
         LayoutInflater inflater = LayoutInflater.from(HotelsActivity.this);

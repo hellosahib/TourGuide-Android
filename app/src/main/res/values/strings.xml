@@ -17,7 +17,6 @@
     <string name="restInfo">Restaurants Info</string>
     <string name="touristAtt">Tourist Attractions</string>
     <string name="transporationInfo">Transportation Info</string>
-
     <!-- Hotel Name -->
     <string name="hotelname1">Hotel 42</string>
     <string name="hotelname2">Welcome Inn</string>
@@ -92,5 +91,10 @@
     <string name="attractionDetail6">The Mata Lal Devi Temple, (also known as the Param Pujya Mata Lal Devi Mandir)  is a sacred Hindu temple that dedicated to a 20th century bespectacled female saint named Lal Devi. The temple is considered to be full of miraculous fertility-improving powers and so is very popular in this country that values children and family so highly. The temple is especially popular and important for women who wish to start a family as it is believed that women who come to pray here have children shortly after and because of this the temple attracts devotees from all over India</string>
     <string name="attractionDetail7">Maharaja Ranjit Singh Museum was originally the summer palace of first king of Sikh Empire, Maharaja Ranjit Singh. Later, it was converted in to museum in 1977 CE. It is a treasure house of the history, art and architecture of the Sikhs of the 18th and the 19th century AD .The museum offers insights into the life of the Sikh monarch Maharaja Ranjit Singh. The Museum displays objects connecting to Maharaja Ranjit Singh such as arms and armour, outstanding paintings and centuries old coins and manuscripts. The paintings displayed in the galleries of the museum showcase the court and camp of the king. Among all the paintings, one that depicts the city of Lahore is most famous</string>
     <string name="attractionDetail8">The Mall Of Amritsar is the city’s definitive social and shopping destination. Mall Of Amritsar packs in a complete package of entertainment and shopping experience for its patrons. Spread across 5,35,241 square feet of retail space, the Mall Of The design is ergonomically defined by high quality standards and urbane architecture. Home to over 250 regional, national and international brands, the Mall Of Amritsar brings a novel shopping experience for all its patrons. A crowd favourite, the Mall of Amritsar is undergoing a surreal metamorphosis that not only includes churning of brands but also changing circulation for the patrons in the mall. The food court is being relocated and we now have several brands that will not only be First in city but also first in Punjab. Get ready to witness state of the art infrastructure, a larger atrium, a world class brand new food court and first in city international brands only at Punjab’s only cultural, social and shopping destination</string>
-    <string name="attractionDetail9">Guru Nanak Dev University (G.N.D.U.) was established at Amritsar, Punjab, India on 24 November 1969 to commemorate Guru Nanak Dev's birth quincentenary celebrations. Guru Nanak Dev University campus is spread over 500 acres (2 km²) near village of Kot Khalsa, nearly 8 km west of the Amritsar, next to Khalsa College, Amritsar. G.N.D.U. is both a residential and an affiliating university</string>
+    <string name="attractionDetail9">Guru Nanak Dev University (G.N.D.U.) was established at Amritsar, Punjab, India on 24 November 1969 to commemorate Guru Nanak Dev birth quincentenary celebrations. Guru Nanak Dev University campus is spread over 500 acres (2 km²) near village of Kot Khalsa, nearly 8 km west of the Amritsar, next to Khalsa College, Amritsar. G.N.D.U. is both a residential and an affiliating university</string>
+    <!-- Drawer Menu -->
+    <string name="touristMenu">Tourist Attractions</string>
+    <string name="resMenu">Restaurants</string>
+    <string name="hotelMenu">Hotels</string>
+    <string name="transMenu">Transportation</string>
 </resources>
